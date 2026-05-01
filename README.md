@@ -1,3 +1,6 @@
-Short script to add LM-Studio responses to your eggdrop bot. Needs eggdrop/python/lmstudio.
+This script adds LM-Studio responses to an eggdrop bot. It requires eggdrop, python and lmstudio.
 
-Replace EGGDROP-BOT-NAME in scripts/llm.tcl and update helpers/llm_query.py pointing towards your lm-studio 'LLM_API_URL' and its 'MODEL'. Add 'source scripts/llm.tcl' to your bot's .conf and chat away.
+Update the file, helpers/llm_query.py. Setting your 'LM-STUDIO-IP-ADDRESS' and 'YOUR-MODEL'.
+Replace the 'EGGDROP-BOT-NAME' with your own eggdrop bot's name (also found in scripts/llm.tcl)
+
+Add 'source scripts/llm.tcl' to your bot's.conf, and chat away.
