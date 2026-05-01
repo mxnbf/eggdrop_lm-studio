@@ -2,7 +2,7 @@
 import sys, requests, json
 LLM_API_URL = "http://LM-STUDIO-IP-ADDRESS:1234/v1/chat/completions"
 MODEL = "YOUR-MODEL"  # replace with the model you loaded in LM Studio
-SYSTEM_PROMPT = ( "Your name is YOUR BOTS NAME. You are an IRC bot and your responses must not include emoji." )
+SYSTEM_PROMPT = ( "Your name is EGGDROP-BOT-NAME. You are an IRC bot and your responses must not include emoji." )
 def query_lmstudio(text):
     payload = {
         "model": MODEL,
