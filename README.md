@@ -1,3 +1,3 @@
-Add LLM responses to eggdrop bot. Needs eggdrop/python.
+Short script to add LM-Studio responses to your eggdrop bot. Needs eggdrop/python/lmstudio.
 
-in your config add '#source scripts/llm.tcl' and chat away.
+Add '#source scripts/llm.tcl' to your bot's .conf and chat away.
